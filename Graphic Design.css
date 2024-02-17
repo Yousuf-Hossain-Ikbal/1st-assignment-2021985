@@ -1,0 +1,52 @@
+/* Same general styles as before */
+
+body {
+    font-family: 'Sacramento', cursive;
+    background-color: #f8f8f8; /* Light background */
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #e67e22; /* Orange accent */
+    color: #fff;
+    font-size: 1.5em; /* Increase heading size */
+}
+
+main {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    padding: 20px;
+    grid-auto-rows: minmax(auto, 350px); /* Set minimum height for services */
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.5; /* Improve readability */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ccc;
+}
